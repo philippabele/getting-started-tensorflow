@@ -1,8 +1,16 @@
 # getting-started-tensorflow
 
+Before starting the jupyter notebooks, it's recommended to create a virtual environment
 python -m venv env
 
-#edit env/pip.ini
+If you use a special global pip setting, ensure your create a pip.ini file with general python settings
+
+[global]
+index-url=https://pypi.python.org/simple/
+trusted-host=pypi.org
+
+After creating the local environment, install the needed packages with
+pip install -r requirements.txt
 
 required packages
 tensorflow==2.7.0
